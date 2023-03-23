@@ -1,16 +1,21 @@
 import React from 'react';
-import Title from './components/Title';
+import Name from './components/Title';
+import Paragraph from './components/Paragraph';
 import Input from './components/Input';
-import Button from './components/Button';
+import SubmitButton from './components/SubmitButton';
+// import SubmitButton from './components/Photo';
 
 function App() {
   return (
     <div>
-      <Title />
+      <Name />
+      <Paragraph />
       <Input />
-      <Button />
+      <SubmitButton />
+      {/* <Photo /> */}
     </div>
   );
 }
 
 export default App;
+
